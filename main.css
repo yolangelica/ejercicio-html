@@ -1,0 +1,53 @@
+/**{  SELECTOR UNIVERSAL * {}CAMBIA TODO LO DE LA PAGINA*/
+.azul{
+	background-color: yellow;
+}
+
+h1,h2,p{
+	color:black;/*color texto de h1 y parrafo*/
+}
+a{
+	color:green;
+	text-decoration: none;
+}
+div{
+	background-color: green;
+}
+li:first-of-type + li{/*el que esta despues del primero*/
+	color:yellow;
+}
+li:first-child{/*el primer li*/
+	color:white;
+}
+li:last-child{/*el ultimo li*/
+	color:pink;
+}
+.caja{/*llamo a caja para realizar cambios en css*/
+	text-align: center;
+	background-color: yellow;/*caja sera de color amarillo (background color fondo)*/
+	padding: 1em;/* se recomienda usar em y no pixel!*/
+	border: 1em groove green;/*borde, tamaño (1em),estilo(groove), color()*/
+}
+.caja2{
+	text-align: center;/*centrar texto*/
+	background-color: #04B45F;/*color fondo caja*/
+	padding: 1em;
+	margin-top: 1em;
+	border: 1em dashed #8A0868;/*borde tamaño,tipo(punteada), color*/
+	/*visibility: hidden; para invisibilizar caja*/
+
+}
+img{/*imagen gato*/
+	display: block;
+	margin: auto;
+}
+
+.caja3{
+	text-align: center;/*centrar texto*/
+	background-color: #04B45F;/*color fondo caja*/
+	padding: 1em;
+	margin-top: 1em;
+	border: 1em outset #8A0868;/
+}body{
+	margin: 0;
+}
